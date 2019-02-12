@@ -24,5 +24,8 @@ http://uazu.net/eeg/ae.html
 Cheap Amp - buy and make better/compact?
 https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/open-source-hardware
 
+Circuit Stock
+https://docs.google.com/spreadsheets/d/1FUtg2p8EEJ0fRPImWcrhpFI9KM6-DNFP20juDUm5KUM/edit?usp=sharing 
+
 
 
