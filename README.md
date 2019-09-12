@@ -33,6 +33,9 @@ https://docs.google.com/spreadsheets/d/1FUtg2p8EEJ0fRPImWcrhpFI9KM6-DNFP20juDUm5
 Electrostatic Polymers
 https://en.wikipedia.org/wiki/Electroactive_polymers
 
+Generic Home Build
+http://openeeg.sourceforge.net/doc/
+
 ## Home EEG Components
 Components required
 https://docs.google.com/spreadsheets/d/1oweczlxDHPxG-q9yqtwQAGGHMsIh-3ojBaT52eaYI1I/edit?usp=sharing
