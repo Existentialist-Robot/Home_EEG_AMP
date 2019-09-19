@@ -1,0 +1,36 @@
+
+clear all
+close all
+
+% create arduino object
+
+a = arduino();
+
+% Create a figure window to monitor the live data
+
+tmax = 50000; % Total time for data collection in seconds
+figure(1),
+grid on,
+xlabel ('Time (s)'), ylabel('Voltage');
+axis([0 tmax+1 -0.5 1.5]);
+
+% set initial index value, starting value
+
+k = 0;  %index
+v = 0;  %voltage
+t = 0;  %time
+
+tic % Start timer
+while toc <= tmax
+    k = k + 1;
+    v(k) = readVoltage(a,'A2');
+    t(k) = toc;
+    q = fft(k)
+    plot(q)
+    
+    % Now plot the data
+    if k > 1
+        line([t(k-1) t(k)],[v(k-1) v(k)]);
+        drawnow;
+    end
+end
